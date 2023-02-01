@@ -64,6 +64,8 @@ export default function Layout({ children, home }) {
                     <Link href="/">← Back to home</Link>
                 </div>
             )}
+
+            <footer>Author : Ahmad F</footer>
         </div>
     );
 }
