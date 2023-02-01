@@ -65,6 +65,8 @@ export default function Layout({ children, home }) {
                 </div>
             )}
 
+            <br />
+            <hr />
             <footer>
                 <span>Author : Ahmad F</span>
                 <br />
