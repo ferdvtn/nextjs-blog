@@ -65,7 +65,9 @@ export default function Layout({ children, home }) {
                 </div>
             )}
 
-            <footer>Author : Ahmad F</footer>
+            <footer>
+                Author : Ahmad F <small>Created on 1 Feb 2023</small>
+            </footer>
         </div>
     );
 }
