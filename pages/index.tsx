@@ -5,7 +5,11 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 
-export default function Home({ allPostData }) {
+export default function Home({
+    allPostData,
+}: {
+    allPostData: { date: string; title: string; id: string }[];
+}) {
     return (
         <Layout home>
             <Head>
